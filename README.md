@@ -1,7 +1,8 @@
 # Wizards Be Like (WBL)
 
 ## Overview
-Wizards Be Like (WBL) is a 2.5D multiplayer PvP game that draws inspiration from timeless classics like Worms and Gunbound. In WBL, players choose from a variety of grimoires and items to participate in thrilling magical battles within interactive and destructible environments. 
+Wizards Be Like (WBL) is a 2.5D multiplayer PvP game that draws inspiration from timeless classics like Worms and Gunbound. In this Minimum Viable Product (MVP) of WBL, players choose from a variety of grimoires and items to participate in thrilling magical battles within interactive and destructible environments. 
+
 
 ## Features
 - **Local Multiplayer PvP**: Engage in dynamic battles with other players locally in a single machine.
