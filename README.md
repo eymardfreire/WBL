@@ -18,13 +18,13 @@ Wizards Be Like (WBL) is a 2.5D multiplayer PvP game that draws inspiration from
 
 - ## Screenshots
 ![Screenshot 1](screenshots/screenshot1.png)
-*Caption for screenshot 1*
+*Title Art
 
 ![Screenshot 2](screenshots/screenshot2.png)
-*Caption for screenshot 2*
+*Character Selection Menu
 
 ![Screenshot 3](screenshots/screenshot3.png)
-*Caption for screenshot 3*
+*The Wild West Stage
 
 ## Technical Details
 - **Engine**: Unity
