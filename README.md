@@ -16,6 +16,16 @@ Wizards Be Like (WBL) is a 2.5D multiplayer PvP game that draws inspiration from
 - **Competitive Play**: Earn tokens and rewards through competitive matches. 
 - **Marketplace**: Trade and collect cosmetic and seasonal items.
 
+- ## Screenshots
+![Screenshot 1](screenshots/screenshot1.png)
+*Caption for screenshot 1*
+
+![Screenshot 2](screenshots/screenshot2.png)
+*Caption for screenshot 2*
+
+![Screenshot 3](screenshots/screenshot3.png)
+*Caption for screenshot 3*
+
 ## Technical Details
 - **Engine**: Unity
 - **Language**: C#
