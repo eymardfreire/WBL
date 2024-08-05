@@ -16,6 +16,16 @@ Wizards Be Like (WBL) is a 2.5D multiplayer PvP game that draws inspiration from
 - **Competitive Play**: Earn tokens and rewards through competitive matches. 
 - **Marketplace**: Trade and collect cosmetic and seasonal items.
 
+- ## Screenshots
+![Screenshot 1](screenshots/screenshot1.png)
+*Title Art
+
+![Screenshot 2](screenshots/screenshot2.png)
+*Character Selection Menu
+
+![Screenshot 3](screenshots/screenshot3.png)
+*The Wild West Stage
+
 ## Technical Details
 - **Engine**: Unity
 - **Language**: C#
@@ -41,6 +51,7 @@ To build the project for PC:
 2. Go to `File` -> `Build Settings`.
 3. Select `PC, Mac & Linux Standalone` and choose the appropriate target platform (Windows, macOS, or Linux).
 4. Click `Build` and select a location to save the build files.
+5. 1080p resolution recommended for this build.
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be, learn, inspire, and create. Any contributions you make are **greatly appreciated**.
