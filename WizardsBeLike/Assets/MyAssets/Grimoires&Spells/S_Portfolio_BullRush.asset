@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924832e5547cbd840a2cfa12442ff156, type: 3}
+  m_Name: S_Portfolio_BullRush
+  m_EditorClassIdentifier: 
+  spellName: Bull Rush
+  effectPrefab: {fileID: 2147954227659661054, guid: d22479f280750454889e9ef140811eaa,
+    type: 3}
+  minDamage: 40
+  maxDamage: 60
+  impactRadius: 3
+  deformRadius: 0.015
+  explosionEffectPrefab: {fileID: 6648054851672520612, guid: e21b064ebc5364f47948c20542cbbc37,
+    type: 3}
+  delayBeforeExplosion: 2

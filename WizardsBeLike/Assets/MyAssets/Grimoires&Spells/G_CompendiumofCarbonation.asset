@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2837f7045109ec0459d643cdf5850256, type: 3}
+  m_Name: G_CompendiumofCarbonation
+  m_EditorClassIdentifier: 
+  grimoireName: Compendium of Carbonation
+  chargingEffectPrefab: {fileID: 19826648, guid: b3f1ecf8bdf01124289a7e517f46cb1a,
+    type: 3}
+  castingEffectPrefab: {fileID: 2468525201414444894, guid: 2fe46599c25a3e748b5d850a97296706,
+    type: 3}
+  spellObjects:
+  - {fileID: 11400000, guid: 7ed2e159a28274f42ae466c339db11eb, type: 2}
+  - {fileID: 11400000, guid: 0950df3e549610c4a92e9cb649d43a82, type: 2}
+  - {fileID: 11400000, guid: 8deb3e45c899fd443a98efd197ab32c4, type: 2}
+  spells:
+  - {fileID: 11400000, guid: 7ed2e159a28274f42ae466c339db11eb, type: 2}
+  - {fileID: 11400000, guid: 0950df3e549610c4a92e9cb649d43a82, type: 2}
+  - {fileID: 11400000, guid: 0950df3e549610c4a92e9cb649d43a82, type: 2}

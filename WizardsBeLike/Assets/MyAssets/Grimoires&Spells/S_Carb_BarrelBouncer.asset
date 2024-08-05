@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d894ea657d62b404d9d48ca026e00cbd, type: 3}
+  m_Name: S_Carb_BarrelBouncer
+  m_EditorClassIdentifier: 
+  spellName: Barrel Bouncer
+  effectPrefab: {fileID: 6446471428977159704, guid: e25249ce9d9047b4692c72d323b7c9d2,
+    type: 3}
+  minDamage: 40
+  maxDamage: 60
+  impactRadius: 3
+  deformRadius: 0.015
+  explosionEffectPrefab: {fileID: 6602163132079923334, guid: d433af8ec7efc5f43b8c4243ca9f29b3,
+    type: 3}
+  piecePrefabs:
+  - {fileID: 8434389660173640282, guid: 05d0e3d8f42817e45b7e3b5d33995076, type: 3}
+  - {fileID: 4591165723581951970, guid: f9fa6911aecbf3449a266fe361144960, type: 3}
+  - {fileID: 5005864568158848858, guid: 264fa7ad0828c9d4d9397bcec61499ad, type: 3}
+  - {fileID: 5938627033161004968, guid: 4000841488da51344899f790854a21fc, type: 3}
+  - {fileID: 9021127865149834640, guid: ff9fb0d7b747e944692334c3ebdd1aa2, type: 3}
+  - {fileID: 7263497641321380899, guid: 71f5b46c60be890459d856b67f143bbe, type: 3}
+  explosionForce: 1000
+  explosionRadius: 5
+  explosionOffset: {x: 0, y: 1, z: 0}

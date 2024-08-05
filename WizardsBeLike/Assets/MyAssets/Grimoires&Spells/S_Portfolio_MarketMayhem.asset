@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5dc4383365244247a6fecb8be187251, type: 3}
+  m_Name: S_Portfolio_MarketMayhem
+  m_EditorClassIdentifier: 
+  spellName: Markey Mayhem
+  effectPrefab: {fileID: 0}
+  bullMinDamage: 40
+  bullMaxDamage: 60
+  bearMinDamage: 70
+  bearMaxDamage: 90
+  bullImpactRadius: 1
+  bearImpactRadius: 1
+  deformRadius: 0.015
+  bullPrefab: {fileID: 2147954227659661054, guid: 1523f9087d806bf46be76f458671f219,
+    type: 3}
+  bearPrefab: {fileID: 8508587248095061706, guid: 480a8082097320f438fb08aecc218398,
+    type: 3}
+  explosionEffectPrefab: {fileID: 6648054851672520612, guid: e21b064ebc5364f47948c20542cbbc37,
+    type: 3}
+  collisionEffectPrefab: {fileID: 6648054851672520612, guid: e21b064ebc5364f47948c20542cbbc37,
+    type: 3}
+  delayBeforeSummoningBear: 0
+  bearSummonScale: {x: 40, y: 40, z: 40}
+  delayBeforeExplosion: 0
+  timeScaleDuringCast: 0.5
+  cooldownTime: 180

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 685fa4e4e8f3963478efe34ac85de935, type: 3}
+  m_Name: S_Portfolio_BearMeteor
+  m_EditorClassIdentifier: 
+  spellName: Bear Meteor
+  effectPrefab: {fileID: 0}
+  minDamage: 70
+  maxDamage: 90
+  impactRadius: 1
+  deformRadius: 0.015
+  orbPrefab: {fileID: 187738, guid: 315050d378b700943aff76df62626fe5, type: 3}
+  bearPrefab: {fileID: 8508587248095061706, guid: 480a8082097320f438fb08aecc218398,
+    type: 3}
+  explosionEffectPrefab: {fileID: 6648054851672520612, guid: e21b064ebc5364f47948c20542cbbc37,
+    type: 3}
+  collisionEffectPrefab: {fileID: 1132206551871088, guid: cb8a83b63e008134da9393db9af8915f,
+    type: 3}
+  bearSummonScale: {x: 40, y: 40, z: 40}

@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: b99d8b83a2dc8934985868f0d828d250
+timeCreated: 1488967509
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wings 01
+    100004: WRig
+    100006: WRigHub001
+    100008: WRigWingL1
+    100010: WRigWingL2
+    100012: WRigWingL3
+    100014: WRigWingR1
+    100016: WRigWingR2
+    100018: WRigWingR3
+    100020: Eye Brows 06
+    100022: Eye Brows 07
+    100024: Eye Brows 08
+    400000: //RootNode
+    400002: Wings 01
+    400004: WRig
+    400006: WRigHub001
+    400008: WRigWingL1
+    400010: WRigWingL2
+    400012: WRigWingL3
+    400014: WRigWingR1
+    400016: WRigWingR2
+    400018: WRigWingR3
+    400020: Eye Brows 06
+    400022: Eye Brows 07
+    400024: Eye Brows 08
+    2300000: Eye Brows 06
+    2300002: Eye Brows 07
+    2300004: Eye Brows 08
+    3300000: Eye Brows 06
+    3300002: Eye Brows 07
+    3300004: Eye Brows 08
+    4300000: Wings 01
+    4300002: Eye Brows 06
+    4300004: Eye Brows 07
+    4300006: Eye Brows 08
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Wings 01
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wings 01
+        weight: 1
+      - path: WRig
+        weight: 1
+      - path: WRigHub001
+        weight: 1
+      - path: WRigHub001/WRigWingL1
+        weight: 1
+      - path: WRigHub001/WRigWingL1/WRigWingL2
+        weight: 1
+      - path: WRigHub001/WRigWingL1/WRigWingL2/WRigWingL3
+        weight: 1
+      - path: WRigHub001/WRigWingR1
+        weight: 1
+      - path: WRigHub001/WRigWingR1/WRigWingR2
+        weight: 1
+      - path: WRigHub001/WRigWingR1/WRigWingR2/WRigWingR3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

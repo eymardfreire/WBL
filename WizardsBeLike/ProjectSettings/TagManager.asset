@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameCanvas
+  - SpellTypeIButton
+  - SpellTypeIIButton
+  - Ground
+  - RespawnPoint
+  - Missile
+  - DestroyOnFall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - GroundLayer
+  - Water
+  - UI
+  - UI1
+  - 
+  - MuseTextureLayer
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

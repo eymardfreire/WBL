@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a5cb149ec2dfb429e3f35daab5858a, type: 3}
+  m_Name: S_Igneous_FireballSpell
+  m_EditorClassIdentifier: 
+  spellName: Fireball
+  effectPrefab: {fileID: 5784742150341884116, guid: 2907e68cffcb0b042951cf127d552853,
+    type: 3}
+  minDamage: 40
+  maxDamage: 60
+  impactRadius: 0.015
+  explosionEffectPrefab: {fileID: 130848, guid: d16221e794fe16e4e8994a7f8c770561,
+    type: 3}

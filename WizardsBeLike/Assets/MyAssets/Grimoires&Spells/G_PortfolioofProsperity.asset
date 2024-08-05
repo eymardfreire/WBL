@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2837f7045109ec0459d643cdf5850256, type: 3}
+  m_Name: G_PortfolioofProsperity
+  m_EditorClassIdentifier: 
+  grimoireName: Portfolio of Prosperity
+  chargingEffectPrefab: {fileID: 7040120700118354038, guid: 98cb062cf37ac074cbddc79092e0e058,
+    type: 3}
+  castingEffectPrefab: {fileID: 19871676, guid: 5fcafcc84e4baa34fad1dfafcad179c5,
+    type: 3}
+  spellObjects:
+  - {fileID: 11400000, guid: 60880f0397eb21447b595be72eccc6a4, type: 2}
+  - {fileID: 11400000, guid: 4b31fbe9c8b9eb84989218530de04a15, type: 2}
+  - {fileID: 11400000, guid: 9e08c598df11f4f419b2e862d3a5ac3e, type: 2}
+  spells:
+  - {fileID: 11400000, guid: 60880f0397eb21447b595be72eccc6a4, type: 2}
+  - {fileID: 11400000, guid: 4b31fbe9c8b9eb84989218530de04a15, type: 2}

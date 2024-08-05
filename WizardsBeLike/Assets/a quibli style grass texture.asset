@@ -1,0 +1,1058 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: a quibli style grass texture
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 3125438144193232905
+  - rid: 3125438144193232911
+  - rid: 3125438144193232917
+  - rid: 3125438144193232923
+  - rid: 3125438144193232929
+  - rid: 3125438144193232932
+  - rid: 3125438144193232938
+  - rid: 3125438144193232944
+  - rid: 3125438144193232950
+  - rid: 3125438144193232956
+  - rid: 3125438158705786880
+  - rid: 3125438158705786886
+  - rid: 3125438158705786892
+  - rid: 3125438158705786898
+  currentMode: TextToImage
+  m_Data:
+  - rid: 3125438144193232896
+  - rid: 3125438144193232897
+  - rid: 3125438144193232898
+  - rid: 3125438144193232899
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: 3125438158705786880
+  m_Operators:
+  - rid: 3125438144193232900
+  - rid: 3125438144193232901
+  - rid: 3125438144193232902
+  - rid: 3125438144193232903
+  - rid: 3125438144193232904
+  m_PreRefineOperators: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3125438144193232896
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 3125438144193232897
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 3125438144193232898
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 3125438144193232899
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 3125438144193232900
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232901
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a completely with image
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232902
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232903
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232904
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232905
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: fabda4d5-e26f-43da-bc16-038d3c0be153
+        Seed: 3053298030
+        m_Operators:
+        - rid: 3125438144193232906
+        - rid: 3125438144193232907
+        - rid: 3125438144193232908
+        - rid: 3125438144193232909
+        - rid: 3125438144193232910
+        history:
+        - rid: 3125438144193232905
+        IsPbrMode: 0
+    - rid: 3125438144193232906
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232907
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a quibli style grass texture
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232908
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232909
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232910
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232911
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 031275f5-cf75-4408-abc2-746c3ec92d5b
+        Seed: 2402362005
+        m_Operators:
+        - rid: 3125438144193232912
+        - rid: 3125438144193232913
+        - rid: 3125438144193232914
+        - rid: 3125438144193232915
+        - rid: 3125438144193232916
+        history:
+        - rid: 3125438144193232911
+        IsPbrMode: 0
+    - rid: 3125438144193232912
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232913
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a quibli style grass texture
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232914
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232915
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232916
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232917
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 35284e6c-10a1-42c1-a0f0-f4f41b673e73
+        Seed: 2443848629
+        m_Operators:
+        - rid: 3125438144193232918
+        - rid: 3125438144193232919
+        - rid: 3125438144193232920
+        - rid: 3125438144193232921
+        - rid: 3125438144193232922
+        history:
+        - rid: 3125438144193232917
+        IsPbrMode: 0
+    - rid: 3125438144193232918
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232919
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a quibli style grass texture
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232920
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232921
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232922
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232923
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: b4900b7e-df33-4ce7-8511-309607fd4453
+        Seed: 842287375
+        m_Operators:
+        - rid: 3125438144193232924
+        - rid: 3125438144193232925
+        - rid: 3125438144193232926
+        - rid: 3125438144193232927
+        - rid: 3125438144193232928
+        history:
+        - rid: 3125438144193232923
+        IsPbrMode: 0
+    - rid: 3125438144193232924
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232925
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a quibli style grass texture
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232926
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232927
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232928
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232929
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: b94386c5-4c08-432f-9a40-ca06336656ae
+        Seed: 0
+        m_Operators:
+        - rid: 3125438144193232930
+        - rid: 3125438144193232931
+        history:
+        - rid: 3125438144193232929
+        IsPbrMode: 0
+    - rid: 3125438144193232930
+      type: {class: UpscaleOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: UpscaleOperator
+          version: 0.0.1
+          settings:
+          - fabda4d5-e26f-43da-bc16-038d3c0be153
+          - '{"operators":[{"type":"GenerateOperator","version":"0.0.1","settings":["TextToImage","4"],"enabled":true,"assembly":""},{"type":"PromptOperator","version":"0.0.2","settings":["a
+            quibli style grass texture",""],"enabled":true,"assembly":""},{"type":"LoraOperator","version":"0.0.1","settings":["guid1"],"enabled":false,"assembly":""},{"type":"ReferenceOperator","version":"0.0.2","settings":["","","0","20"],"enabled":true,"assembly":""},{"type":"MaskOperator","version":"0.0.1","settings":["","True","1"],"enabled":false,"assembly":""}]}'
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232931
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a quibli style grass texture
+          - 
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232932
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: b3461059-003a-469b-891d-3621a77c4c37
+        Seed: 2300911287
+        m_Operators:
+        - rid: 3125438144193232933
+        - rid: 3125438144193232934
+        - rid: 3125438144193232935
+        - rid: 3125438144193232936
+        - rid: 3125438144193232937
+        history:
+        - rid: 3125438144193232932
+        IsPbrMode: 0
+    - rid: 3125438144193232933
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232934
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - an anime quibli style grassy, with small grass blades, and dirt ground
+            texture for video games
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232935
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232936
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232937
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232938
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 99c70bfc-237e-49a0-92db-e8d8ce537e0c
+        Seed: 3647499554
+        m_Operators:
+        - rid: 3125438144193232939
+        - rid: 3125438144193232940
+        - rid: 3125438144193232941
+        - rid: 3125438144193232942
+        - rid: 3125438144193232943
+        history:
+        - rid: 3125438144193232938
+        IsPbrMode: 0
+    - rid: 3125438144193232939
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232940
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - an anime quibli style grassy, with small grass blades, and dirt ground
+            texture for video games
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232941
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232942
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232943
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232944
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 59b62451-f330-4362-8087-3b92d44199fa
+        Seed: 3772190816
+        m_Operators:
+        - rid: 3125438144193232945
+        - rid: 3125438144193232946
+        - rid: 3125438144193232947
+        - rid: 3125438144193232948
+        - rid: 3125438144193232949
+        history:
+        - rid: 3125438144193232944
+        IsPbrMode: 0
+    - rid: 3125438144193232945
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232946
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - an anime quibli style grassy, with small grass blades, and dirt ground
+            texture for video games
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232947
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232948
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232949
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232950
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 815abe1f-dd93-4aae-9752-729c48543301
+        Seed: 2999533764
+        m_Operators:
+        - rid: 3125438144193232951
+        - rid: 3125438144193232952
+        - rid: 3125438144193232953
+        - rid: 3125438144193232954
+        - rid: 3125438144193232955
+        history:
+        - rid: 3125438144193232950
+        IsPbrMode: 0
+    - rid: 3125438144193232951
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232952
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - an anime quibli style grassy, with small grass blades, and dirt ground
+            texture for video games
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232953
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232954
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232955
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438144193232956
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 1970a970-5271-4ba6-85c3-185d56754402
+        Seed: 0
+        m_Operators:
+        - rid: 3125438144193232957
+        - rid: 3125438144193232958
+        history:
+        - rid: 3125438144193232956
+        IsPbrMode: 0
+    - rid: 3125438144193232957
+      type: {class: UpscaleOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: UpscaleOperator
+          version: 0.0.1
+          settings:
+          - 815abe1f-dd93-4aae-9752-729c48543301
+          - '{"operators":[{"type":"GenerateOperator","version":"0.0.1","settings":["TextToImage","4"],"enabled":true,"assembly":""},{"type":"PromptOperator","version":"0.0.2","settings":["an
+            anime quibli style grassy, with small grass blades, and dirt ground texture
+            for video games",""],"enabled":true,"assembly":""},{"type":"LoraOperator","version":"0.0.1","settings":["guid1"],"enabled":false,"assembly":""},{"type":"ReferenceOperator","version":"0.0.2","settings":["","","0","20"],"enabled":true,"assembly":""},{"type":"MaskOperator","version":"0.0.1","settings":["","True","1"],"enabled":false,"assembly":""}]}'
+          enabled: 1
+          assembly: 
+    - rid: 3125438144193232958
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - an anime quibli style grassy, with small grass blades, and dirt ground
+            texture for video games
+          - 
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786880
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: 0f7ed0b2-2b21-4e10-9c1e-22e08105ba18
+        Seed: 44677365
+        m_Operators:
+        - rid: 3125438158705786881
+        - rid: 3125438158705786882
+        - rid: 3125438158705786883
+        - rid: 3125438158705786884
+        - rid: 3125438158705786885
+        history:
+        - rid: 3125438158705786880
+        IsPbrMode: 0
+    - rid: 3125438158705786881
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786882
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a completely with image
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786883
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786884
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786885
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786886
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: b5af4253-bb96-4bab-bfc5-c039cca5c92e
+        Seed: 4104794444
+        m_Operators:
+        - rid: 3125438158705786887
+        - rid: 3125438158705786888
+        - rid: 3125438158705786889
+        - rid: 3125438158705786890
+        - rid: 3125438158705786891
+        history:
+        - rid: 3125438158705786886
+        IsPbrMode: 0
+    - rid: 3125438158705786887
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786888
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a completely with image
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786889
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786890
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786891
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786892
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: d1336b66-b692-4c9f-98db-8db3989ee0a3
+        Seed: 787656184
+        m_Operators:
+        - rid: 3125438158705786893
+        - rid: 3125438158705786894
+        - rid: 3125438158705786895
+        - rid: 3125438158705786896
+        - rid: 3125438158705786897
+        history:
+        - rid: 3125438158705786892
+        IsPbrMode: 0
+    - rid: 3125438158705786893
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786894
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a completely with image
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786895
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786896
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786897
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786898
+      type: {class: ImageArtifact, ns: Unity.Muse.Texture, asm: Unity.Muse.Texture}
+      data:
+        Guid: eb2e105f-4abf-4fe6-bff5-6c7ba7a94b6f
+        Seed: 2668970271
+        m_Operators:
+        - rid: 3125438158705786899
+        - rid: 3125438158705786900
+        - rid: 3125438158705786901
+        - rid: 3125438158705786902
+        - rid: 3125438158705786903
+        history:
+        - rid: 3125438158705786898
+        IsPbrMode: 0
+    - rid: 3125438158705786899
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToImage
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786900
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a completely with image
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786901
+      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: LoraOperator
+          version: 0.0.1
+          settings:
+          - guid1
+          enabled: 0
+          assembly: 
+    - rid: 3125438158705786902
+      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: ReferenceOperator
+          version: 0.0.2
+          settings:
+          - 
+          - 
+          - 0
+          - 20
+          enabled: 1
+          assembly: 
+    - rid: 3125438158705786903
+      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: MaskOperator
+          version: 0.0.1
+          settings:
+          - 
+          - True
+          - 1
+          enabled: 0
+          assembly: 

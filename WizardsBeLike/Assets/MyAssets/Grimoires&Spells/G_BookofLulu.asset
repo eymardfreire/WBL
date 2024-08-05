@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2837f7045109ec0459d643cdf5850256, type: 3}
+  m_Name: G_BookofLulu
+  m_EditorClassIdentifier: 
+  grimoireName: Book of Lulu
+  chargingEffectPrefab: {fileID: 19839210, guid: e7c3a9353c0302b4cb1fab702e1db14f,
+    type: 3}
+  castingEffectPrefab: {fileID: 19855684, guid: ded43eaee385aa94eafade73f78babdb,
+    type: 3}
+  spellObjects:
+  - {fileID: 11400000, guid: d221a12c2bbdca2409d91e1164245563, type: 2}
+  - {fileID: 11400000, guid: a46d77da33ac3af4aaeb01914da6fb1f, type: 2}
+  - {fileID: 11400000, guid: dea2313b00b412b4f983772ecc7380a5, type: 2}
+  spells:
+  - {fileID: 11400000, guid: d221a12c2bbdca2409d91e1164245563, type: 2}
+  - {fileID: 11400000, guid: a46d77da33ac3af4aaeb01914da6fb1f, type: 2}

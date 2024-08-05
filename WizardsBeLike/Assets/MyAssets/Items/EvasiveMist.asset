@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d58f858d23d4f489e402a383872a2d, type: 3}
+  m_Name: EvasiveMist
+  m_EditorClassIdentifier: 
+  itemName: Evasive Mist
+  effectPrefab: {fileID: 1406732261047320, guid: f21836be3103a614db774ed06733eb75,
+    type: 3}
+  effectDuration: 5

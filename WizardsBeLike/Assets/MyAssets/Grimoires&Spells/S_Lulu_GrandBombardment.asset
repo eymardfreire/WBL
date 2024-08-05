@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916a7c1678bca524ab1db0b6f00b9ec6, type: 3}
+  m_Name: S_Lulu_GrandBombardment
+  m_EditorClassIdentifier: 
+  spellName: Lulu's Grand Bombardment
+  effectPrefab: {fileID: 0}
+  luluPrefab: {fileID: 7745953820471925347, guid: 69b1caee127e05042a1f4e7cea72f4d6,
+    type: 3}
+  fecesBombPrefab: {fileID: 5484454647345260301, guid: 50632a407a1c50149b538c245b024478,
+    type: 3}
+  bombReleaseTime: 1.5
+  bombReleaseEffectPrefab: {fileID: 104006, guid: 4aa2a561d9bbcee43a2e36f815a22bb9,
+    type: 3}
+  explosionEffectPrefab: {fileID: 1813456884755978, guid: 07671cc52d4fc504086f2852acd1def4,
+    type: 3}
+  impactRadius: 0.025
+  minDamage: 140
+  maxDamage: 149
+  upwardForce: 3
+  timeScaleDuringCast: 0.5
+  cooldownTime: 180
