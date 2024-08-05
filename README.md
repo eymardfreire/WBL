@@ -51,6 +51,7 @@ To build the project for PC:
 2. Go to `File` -> `Build Settings`.
 3. Select `PC, Mac & Linux Standalone` and choose the appropriate target platform (Windows, macOS, or Linux).
 4. Click `Build` and select a location to save the build files.
+5. 1080p resolution recommended for this build.
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be, learn, inspire, and create. Any contributions you make are **greatly appreciated**.
